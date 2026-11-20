@@ -1,0 +1,144 @@
+@media only screen and (min-width : 200px) and (max-width : 575px) {
+  
+  
+  
+  header{
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 10px 10px 10px;
+    margin-top:none ;
+    gap: 0px;
+    
+  }
+  .logo{
+    padding: 10px;
+    
+  }
+    .headerAddress {
+      padding: 10px ;
+      margin-top: 8px;
+  
+    }
+  
+    .headerAddress h3 {
+      font-size: 18px;
+    }
+   .headerAddress p {
+           font-size: 16px;
+         }
+
+   .headerbtn{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    bottom: 2px;
+    margin-left: 0;
+    justify-content: center;
+    
+
+   }
+
+   .btn{
+    display: none;
+   }
+
+   .orderBanner{
+    flex-direction: column;
+   }
+
+  .popularbrandIcon {
+    flex-basis: 25%;
+   }
+
+}
+
+
+
+/* ===== FOOTER RESPONSIVE DESIGN ===== */
+
+/* Tablets */
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+
+  .footerContainer {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 35px;
+  }
+
+  .footer {
+    margin-top: 40px;
+  }
+
+}
+
+/* Mobile Phones */
+
+@media screen and (max-width: 575px) {
+
+  .footer {
+    margin-top: 30px;
+    padding-top: 35px;
+  }
+
+  .footerContainer {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 20px 30px;
+  }
+
+  .footerLogo img {
+    width: 155px;
+  }
+
+  .footerColumn h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .footerAbout p {
+    font-size: 14px;
+  }
+
+  .footerColumn ul li {
+    margin-bottom: 12px;
+  }
+
+  .footerSocial a {
+    width: 38px;
+    height: 38px;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 15px;
+    gap: 15px;
+  }
+
+  .footerBottomLinks {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .footerBottomLinks a {
+    font-size: 12px;
+  }
+
+}
+
+/* Small Mobile Phones */
+
+@media screen and (max-width: 360px) {
+
+  .footerContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footerBottomLinks {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+}
+
